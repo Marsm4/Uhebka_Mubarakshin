@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="614808c6f370422ead7a0fe871510295" Name="Diagram1">
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Academic" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Animals_Mubarakshin" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Countries_Mubarakshin" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Disciplina" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Ekzamen" Width="1.5" PointX="9.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Fakultet" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Flowers_Mubarakshin" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Injener" Width="1.5" PointX="7.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Kafedra" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Management_Mubarakshin" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Prepodovatel" Width="1.5" PointX="7.5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Sotrudnik" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Specialnost" Width="1.5" PointX="5.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Strana" Width="1.5" PointX="9.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Student" Width="1.5" PointX="7.5" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.sysdiagrams" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Uhenik" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Zaiavka" Width="1.5" PointX="7.5" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Zav_kafedra" Width="1.5" PointX="7.5" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Гимназисты" Width="1.5" PointX="11.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Uhebnia_Praktika_321Model.Ученики" Width="1.5" PointX="11.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="Uhebnia_Praktika_321Model.FK_Disciplina_Kafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="Uhebnia_Praktika_321Model.FK_Ekzamen_Disciplina" ManuallyRouted="false" />
+        <AssociationConnector Association="Uhebnia_Praktika_321Model.FK_Ekzamen_Prepodovatel" ManuallyRouted="false" />
+        <AssociationConnector Association="Uhebnia_Praktika_321Model.FK_Ekzamen_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="Uhebnia_Praktika_321Model.FK_Kafedra_Fakultet" ManuallyRouted="false" />
+        <AssociationConnector Association="Uhebnia_Praktika_321Model.FK_Injener_Sotrudnik" ManuallyRouted="false" />
+        <AssociationConnector Association="Uhebnia_Praktika_321Model.FK_Sotrudnik_Kafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="Uhebnia_Praktika_321Model.FK_Specialnost_Kafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="Uhebnia_Praktika_321Model.FK_Prepodovatel_Sotrudnik" ManuallyRouted="false" />
+        <AssociationConnector Association="Uhebnia_Praktika_321Model.FK_Zav_kafedra_Sotrudnik" ManuallyRouted="false" />
+        <AssociationConnector Association="Uhebnia_Praktika_321Model.FK_Student_Specialnost" ManuallyRouted="false" />
+        <AssociationConnector Association="Uhebnia_Praktika_321Model.FK_Zaiavka_Specialnost" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
