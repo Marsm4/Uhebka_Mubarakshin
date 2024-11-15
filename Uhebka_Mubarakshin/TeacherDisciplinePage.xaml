@@ -9,9 +9,19 @@
       Title="TeacherDisciplinePage">
 
     <Grid>
-        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center"  Margin="20">
-            <ComboBox Name="TeacherComboBox" Width="200" Height="30" SelectionChanged="OnTeacherSelectionChanged"/>
-            <DataGrid Name="DisciplineDataGrid" Width="300" Height="200" AutoGenerateColumns="True"/>
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="20">
+            <!-- Выпадающий список для выбора преподавателя -->
+            <ComboBox Name="TeacherComboBox" Width="200" Height="30" SelectionChanged="OnTeacherSelectionChanged">
+                <ComboBoxItem Content="Выберите преподавателя" IsSelected="True"/>
+            </ComboBox>
+
+            <!-- DataGrid для отображения дисциплин и часов -->
+            <DataGrid Name="DisciplineDataGrid" Width="500" Height="250" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Дисциплина" Binding="{Binding Nazvanie}" Width="*" />
+                    <DataGridTextColumn Header="Часы" Binding="{Binding Obyom}" Width="*" />
+                </DataGrid.Columns>
+            </DataGrid>
         </StackPanel>
     </Grid>
 </Page>

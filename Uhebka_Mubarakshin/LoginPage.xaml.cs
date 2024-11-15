@@ -25,7 +25,7 @@ namespace Uhebka_Mubarakshin
                 if (employee != null)
                 {
                     // Успешный вход, переходим на следующую страницу
-                    NavigationService.Navigate(new EmployeeListPage());
+                    NavigationService.Navigate(new TeacherDisciplinePage());
                 }
                 else
                 {

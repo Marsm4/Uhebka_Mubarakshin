@@ -23,10 +23,14 @@ namespace Uhebka_Mubarakshin
                     .Where(s => s.Doljnost.Contains("преподаватель")) // Фильтруем по должности
                     .ToList();
 
+                // Очищаем элементы ComboBox перед присваиванием нового списка
+                TeacherComboBox.Items.Clear();
+
                 TeacherComboBox.ItemsSource = teachers;
                 TeacherComboBox.DisplayMemberPath = "Familia"; // Отображаем фамилии сотрудников
             }
         }
+
 
         private void OnTeacherSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
